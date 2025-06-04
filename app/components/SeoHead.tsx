@@ -16,7 +16,7 @@ export default function SeoHead() {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '');
+            gtag('config', ${process.env.NEXT_PUBLIC_GA_TRACKING_ID});
           `,
         }}
       />
