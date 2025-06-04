@@ -1,13 +1,11 @@
-
-
-import Script from 'next/script';
+import Script from "next/script";
 
 export default function SeoHead() {
   return (
     <>
       {/* Google Analytics */}
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_TRACKING_ID}`}
         strategy="afterInteractive"
       />
       <Script
@@ -18,7 +16,7 @@ export default function SeoHead() {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'GA_TRACKING_ID');
+            gtag('config', '');
           `,
         }}
       />
@@ -28,9 +26,6 @@ export default function SeoHead() {
         src="https://cdn.deadlinefunnel.com/scripts/df.js"
         strategy="afterInteractive"
       />
-
-      {/* Your page content */}
-      <div>...</div>
     </>
   );
 }
