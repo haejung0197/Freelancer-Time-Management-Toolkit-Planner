@@ -23,7 +23,7 @@ export default function CountdownTimer({ deadline }: { deadline: string }) {
       </div>
 
       <p className="text-[16px] mt-4">
-        The <strong>Freelancer's Toolkit</strong> is just <strong>$1</strong> —
+        The <strong>{`Freelancer's Toolkit`}</strong> is just <strong>$1</strong> —
         but only for:
       </p>
 

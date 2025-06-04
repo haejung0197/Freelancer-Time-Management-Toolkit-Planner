@@ -16,7 +16,7 @@ export default function OfferSection() {
       </p>
       <SubscriptionForm />
       <p className="text-[16px]">
-        "This planner saved me 3 hours a day! – Ayesha, Freelance Writer"
+        {`This planner saved me 3 hours a day! – Ayesha, Freelance Writer`}
       </p>
       <CountdownTimer deadline="2025-06-10 23:59:59" />
       <button className="w-full bg-black text-white  p-4  rounded-lg transition hover:scale-105 duration-300 cursor-pointer max-w-md mx-auto ">
