@@ -1,7 +1,7 @@
 import React from "react";
 
 import Image from "next/image";
-import { dmSerifDisplay } from "../layout";
+import { dmSerifDisplay } from "../lib/font";
 
 const Header = () => {
   return (

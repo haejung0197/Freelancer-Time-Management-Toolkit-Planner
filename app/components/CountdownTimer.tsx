@@ -3,6 +3,7 @@
 import { CiLock } from "react-icons/ci";
 import { useCountdown } from "../lib/useCountdown";
 
+
 export default function CountdownTimer({ deadline }: { deadline: string }) {
   const { days, hours, minutes, seconds, expired } = useCountdown(deadline);
 
