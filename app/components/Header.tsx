@@ -8,9 +8,9 @@ const Header = () => {
     <>
       <section className="overflow-hidden">
         <div className="relative">
-          <div className=" absolute w-full max-w-4xl  z-10 flex flex-col justify-center items-center text-center px-6 md:px-12 space-y-6 left-[50%] -translate-y-[50%] top-[50%] -translate-x-[50%] ">
+          <div className=" absolute w-full max-w-4xl z-10 flex flex-col justify-center items-center text-center px-6 md:px-12 space-y-6 left-[50%] -translate-y-[50%] top-[50%] -translate-x-[50%] ">
             <h1
-              className={`${dmSerifDisplay.className} text-5xl md:text-[60px] font-extrabold leading-[63px] tracking-tight text-blackdrop-shadow-lg transform transition-transform duration-500 hover:scale-105`}
+              className={`${dmSerifDisplay.className} text-4xl xs:text-5xl md:text-[60px] font-extrabold leading-[40px] xs:leading-[48px] sm:leading-[55px] md:leading-[63px] tracking-tight text-blackdrop-shadow-lg transform transition-transform duration-500 hover:scale-105`}
             >
               End Freelance Chaos: Plan Your Day in 5 Minutes!
             </h1>
@@ -26,7 +26,7 @@ const Header = () => {
               width={1000}
               height={1000}
               loading="lazy"
-              className="w-full h-[300px] object-cover"
+              className="w-full h-[250px] xs:h-[300px] object-cover"
             />
           </div>
         </div>

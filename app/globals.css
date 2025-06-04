@@ -8,3 +8,8 @@
   object-fit: cover;
   background-size: cover;
 }
+@theme{
+  --breakpoint-xs : 470px;
+  --breakpoint-xxs : 400px;
+
+}
